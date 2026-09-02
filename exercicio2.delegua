@@ -5,6 +5,13 @@ var resposta = leia("Voce usa oculos? Responda V ou F: ")
 var idade = 2026 - ano_nascimento
 var usa_oculos = falso
 para var i = 1; i <= 3; i = i + 1 {
+
+ nome = leia("Nome: ")
+ ano_nascimento = inteiro(leia("Ano de nascimento: "))
+ salario = leia("Salario: ")
+ resposta = leia("Voce usa oculos? Responda V ou F: ")
+ idade = 2026 - ano_nascimento
+ usa_oculos = falso
     se (resposta == 'V') {
         usa_oculos = verdadeiro
     }
